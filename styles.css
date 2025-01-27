@@ -1,0 +1,169 @@
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    }
+    html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    
+    
+    
+    .w-slider-dot {
+    font-size: 6px;
+    border-radius: 3px;
+    background: #475569;
+    }
+    .w-slider-dot.w-active {
+    width: 18px;
+    height: 6px;
+    background: #CBD5E1;
+    border-radius: 3px;
+    }
+    .suspense-loading-view.suspense-loading-view {
+    padding-bottom: 70px;
+    }
+    .rare-collection-popup-each-company-logo{
+    height: 34px;
+    }
+    .company-logo {
+    height: 36px;
+    }
+    .meta{
+    height: 30px;
+    }
+    .drdo{
+    height: 42px;
+    }
+    .rapido{
+    height: 42px;
+    }
+    .student-feedback-social-media-icon-2 {
+    height: 44px;
+    margin-top: 0px;
+    }
+    
+    .student-feedback-profile-picture {
+    margin-top: 0px;
+    }
+    
+    
+    
+    
+    @media screen and (min-width: 320px) {
+    .lightbox-video-sizes {
+    width: 100vw;
+    height: 56vw;
+    }
+    }
+    
+    @media screen and (min-width: 768px) {
+    .lightbox-video-sizes {
+    width: 95vw;
+    height: 60vw;
+    }
+    }
+    
+    @media screen and (min-width: 1024px) {
+    .lightbox-video-sizes {
+    width: 940.5px;
+    height: 529px;
+    border-radius: 16px;
+    }
+    }
+    .rare-collection-popup-parent-container-3::-webkit-scrollbar-thumb {
+    background-color: #94A3B8!important;
+    border-radius: 6px!important;
+    }
+    .rare-collection-popup-parent-container-3::-webkit-scrollbar {
+    width: 4px!important;
+    height: 80px!important;
+    }
+    .track-button *{
+    pointer-events: none;
+    }
+    
+    
+    
+    
+    
+    .companies-img{
+    height:52px;
+    }
+    @media screen and (max-width:478px){
+    .companies-img{
+    height:32px;
+    object-fit:cover;
+    }
+    }
+    .marquee1 {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap:24px;
+    }
+    
+    .marquee__group1 {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap:24px;
+    min-width: 100%;
+    animation: scroll 40s linear infinite;
+    white-space: nowrap; overflow: hidden;
+    overflow-x:-webkit-marquee;
+    -webkit-marquee-direction: backwards;
+    -webkit-marquee-style: alternate;
+    -webkit-marquee-speed: normal;
+    -webkit-marquee-increment: small;
+    -webkit-marquee-repetition: 4;
+    
+    }
+    
+    @keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+    
+    100% {
+    transform: translateX(calc(-100% - 24px));
+    }
+    }
+    
+    
+    
+    
+    
+    .companies-img2{
+    height:52px;
+    }
+    @media screen and (max-width:478px){
+    .companies-img2{
+    height:32px;
+    object-fit:cover;
+    }
+    }
+    .marquee2 {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap:64px;
+    }
+    
+    .marquee__group2 {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap:24px;
+    min-width: 100%;
+    animation: scroll 40s linear infinite;
+    white-space: nowrap; overflow: hidden;
+    overflow-x:-webkit-marquee;
+    -webkit-marquee-direction: backwards;
+    -webkit-marquee-style: alternate;
+    -webkit-marquee-speed: normal;
+    -webkit-marquee-increment: small;
+    -webkit-marquee-repetition: 10;
+    }
+    
+    
